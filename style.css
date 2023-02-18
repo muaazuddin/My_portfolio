@@ -1,9 +1,43 @@
-body{
+body {
     font-family: 'Cormorant Garamond', serif;
+    margin: 0%;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.org{
+
+.org {
     color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.Mol {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.Mol img {
+    width: 80%;
+    padding-top: 2%;
+
+}
+
+.linkButton {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(pink, rgb(233, 10, 196));
+
+}
+
+.back-image {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
 }
