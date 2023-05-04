@@ -70,3 +70,19 @@ h1 {
 .orange-color {
     color: orange;
 }
+
+#Ex1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+#Ex2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
